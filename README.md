@@ -1,2 +1,4 @@
-# 3d_printing_links
-3d printing links and useful data
+# Z Stepper in series adapter DYI instructions
+https://www.instructables.com/id/Wiring-Your-Z-Stepper-Motors-in-Series/
+
+
