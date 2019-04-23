@@ -11,3 +11,11 @@
 
 [source](https://reprap.org/forum/read.php?1,741639,741693#msg-741693)
 </details>
+
+
+<details><summary>Probe Accuracy</summary>
+
+- [Z Probe Micro Switch Shoot Out! How Accurate Are They For 3D Printing? + Hall Probe testing](https://www.youtube.com/watch?v=BLzCeH1hS9g)
+- [Autoleveling on 3D printers: 9 myths and 12 sensors tested!](https://www.youtube.com/watch?v=il9bNWn66BY&feature=youtu.be)
+
+</details>
