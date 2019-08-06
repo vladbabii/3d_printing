@@ -2,6 +2,7 @@
   - [Reprap](https://reprap.org/wiki/Triffid_Hunter's_Calibration_Guide)
 </details>
 
+**>** [Pressure Advance tutorial](https://boxnovel.com/novel/castle-of-black-iron/chapter-1785)
 
 **>** [Z Stepper in series adapter DYI instructions](https://www.instructables.com/id/Wiring-Your-Z-Stepper-Motors-in-Series/")
 
