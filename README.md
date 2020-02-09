@@ -64,3 +64,22 @@ before each print i repeat the first few steps from calibration procedure: bed t
 this makes sure that mechanically i do the same things at start of each print so if there are any z wobble or other mechanical imperfections they are done exactly the same every time
 
 </details>
+
+
+
+
+<details><summary>How to unclog heatbreak</summary>
+  
+how i inclogged blocked heatbreaks
+1. soldering  iron
+2. dremel drill bit pack - the 1.2 mm drill bit
+steps:
+set your soldering iron to at least 300 c
+and touch the hotend-side of the heatbreak to the tip
+once it gets hot enough
+carefully place your soldering iron somewhere safe
+while holding heatbreak with pliers,  quickly insert the drill bit, wait for a couple of seconds then pull
+clean the drill bit and repeat as many times as needed, sometimes just pulling and sometimes rotating it
+doing it by hand is fine
+if you use a power tool you risk gouging the insides of the heatbreak
+</details>
