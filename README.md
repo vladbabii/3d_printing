@@ -83,3 +83,52 @@ clean the drill bit and repeat as many times as needed, sometimes just pulling a
 doing it by hand is fine
 if you use a power tool you risk gouging the insides of the heatbreak
 </details>
+
+
+
+
+
+<details><summary>Calibrating maximum volumetric rate</summary>
+  
+Source: http://projects.ttlexceeded.com/3dprinting_calibrating_volumetric_rate.html
+  
+Test procedure
+Here’s how I’ve set up my testing:
+
+I’m printing with eSun PLA+ filament with a nominal diameter of 1.75mm with a cross-section of roughly 2.405mm.
+
+I’m running an OG R2 (April 2018) extruder setup.
+
+G-code commands are sent directly to the printer using Octoprint running on a Raspberry Pi connected via USB.
+
+To do testing, fire up Pronterface or Octoprint connected to your 3D printer via USB and begin issuing manual g-code commands.
+
+First, set extruder mode to relative and set my nozzle temp to 200C and began extruding using eSun PLA+:
+```
+M83
+M109 S200
+```
+Then begin issuing commands to extrude 60mm of filament at different speeds:
+
+```
+G1 E60 F300
+G1 E60 F400
+```
+Increment speeds by 100mm/min (the Fxx parameter) until you the extruder clicking.
+
+Reduce by speed by 50mm/min.
+
+Increment upward by 10mm/min until you hear the extruder start to skip again
+
+Backed down by 5mm/min.
+
+Once you find the highest speed that extrudes without extruder clicks, repeat the test 2 more times for verification.
+
+Once you determine the speed for a particular temperature, the calculations are simple:
+
+Divide the speed used in the G1 command by 60 to convert mm/min to mm/s.
+
+Multiply the speed in mm/s by the area of the cross-section of my 1.75mm filament (2.405) to get the corresponding rate measured in mm3/s .
+
+Reduce the measured rate (.5 mm3/s is a good amount) to leave some headroom for hardware and filament variations.
+</details>
